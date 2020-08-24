@@ -68,7 +68,7 @@ public class Enter extends AsyncTask<String,Void,String> {
     @Override
     protected void onPostExecute(String result){
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setTitle("Registration");
+        builder.setTitle("Registration Status");
         builder.setMessage(result);
         builder.setPositiveButton("OK", null);
         AlertDialog dialog = builder.create();
