@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#070000"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="333dp"
+        android:layout_alignParentLeft="true">
+
+        <Button
+            android:id="@+id/Addimages"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="AddImage_Activity_Jump"
+            android:layout_marginTop="80dp"
+            android:text="Add Images"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/Deleteimages"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="80dp"
+            android:onClick="DeleteImages_Activity_Jump"
+            android:text="Delete Images" />
+
+        <Button
+            android:id="@+id/Blockusers"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="80dp"
+            android:onClick="BlockUser_Activity_Jump"
+            android:text="BlockUser"/>
+
+        //next three rows button code
+        <Button
+            android:id="@+id/Userlogs"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="200dp"
+            android:onClick="LogedUsers_Activity_Jump"
+            android:text="UserLogs"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/Addquotes"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="200dp"
+            android:onClick="AddQuotes_Activity_Jump"
+            android:text="Add Quotes" />
+
+        <Button
+            android:id="@+id/Deletequotes"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="240dp"
+            android:onClick="DeleteQuotes_Activity_Jump"
+            android:layout_marginTop="200dp"
+            android:text="Delete Quotes" />
+        //next two image button
+        <Button
+            android:id="@+id/AddstoryLink"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="320dp"
+            android:onClick="Add_StoryLink_Activity_Jump"
+            android:text="Add News/Story" />
+
+        <Button
+            android:id="@+id/Deletestorylink"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="320dp"
+            android:onClick="Delete_StoryLink_Activity_Jump"
+            android:text="Delete News" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="141dp"
+            android:layout_marginLeft="141dp"
+            android:layout_marginTop="18dp"
+            android:text="Admin Panel"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
